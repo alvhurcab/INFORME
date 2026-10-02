@@ -1,0 +1,89 @@
+* 9e760d5 (HEAD -> develop) Revert "fix: cambio directo erroneo en develop"
+* 7df6f29 fix: cambio directo erroneo en develop
+* f0d123e (feature/reset-demo) docs: corregir errata en README
+* acce502 (feature/reset-function) feat(api): agregar funcion debouncer_reset
+*   08d99d0 Merge branch 'feature/active-low' into develop
+|\  
+| * 173ede4 (feature/active-low) feat(logic): añadir soporte para entradas active-low
+* | 0010e9d Cambio del debouncer.h desde develop
+|/  
+| * 940c213 (hotfix/v1.0.1) docs: corregir errata en README
+|/  
+* c8f9498 (main) feat(core): estructura inicial del debouncer en C y testbench
+
+=== REFLOG ===
+
+9e760d5 HEAD@{0}: reset: moving to 9e760d5
+f0d123e HEAD@{1}: reset: moving to HEAD~2
+9e760d5 HEAD@{2}: revert: Revert "fix: cambio directo erroneo en develop"
+7df6f29 HEAD@{3}: commit: fix: cambio directo erroneo en develop
+f0d123e HEAD@{4}: checkout: moving from feature/reset-demo to develop
+f0d123e HEAD@{5}: checkout: moving from develop to feature/reset-demo
+f0d123e HEAD@{6}: checkout: moving from feature/reset-demo to develop
+f0d123e HEAD@{7}: reset: moving to HEAD~1
+06301db HEAD@{8}: commit: docs: intento 2
+f0d123e HEAD@{9}: reset: moving to HEAD~1
+d76d4f2 HEAD@{10}: commit: docs: modificacion temporal
+f0d123e HEAD@{11}: checkout: moving from develop to feature/reset-demo
+f0d123e HEAD@{12}: cherry-pick: docs: corregir errata en README
+acce502 HEAD@{13}: checkout: moving from hotfix/v1.0.1 to develop
+940c213 HEAD@{14}: commit: docs: corregir errata en README
+c8f9498 HEAD@{15}: checkout: moving from develop to hotfix/v1.0.1
+acce502 HEAD@{16}: merge feature/reset-function: Fast-forward
+08d99d0 HEAD@{17}: checkout: moving from feature/reset-function to develop
+acce502 HEAD@{18}: rebase (finish): returning to refs/heads/feature/reset-function
+acce502 HEAD@{19}: rebase (continue): feat(api): agregar funcion debouncer_reset
+08d99d0 HEAD@{20}: rebase (start): checkout develop
+d3b60d3 HEAD@{21}: checkout: moving from develop to feature/reset-function
+08d99d0 HEAD@{22}: commit (merge): Merge branch 'feature/active-low' into develop
+0010e9d HEAD@{23}: checkout: moving from feature/active-low to develop
+173ede4 HEAD@{24}: rebase (finish): returning to refs/heads/feature/active-low
+173ede4 HEAD@{25}: rebase (squash): feat(logic): añadir soporte para entradas active-low
+dae0891 HEAD@{26}: rebase (start): checkout HEAD~2
+1e1eb23 HEAD@{27}: checkout: moving from feature/reset-function to feature/active-low
+d3b60d3 HEAD@{28}: reset: moving to d3b60d3
+0835954 HEAD@{29}: checkout: moving from develop to feature/reset-function
+0010e9d HEAD@{30}: reset: moving to 0010e9d
+0835954 HEAD@{31}: checkout: moving from hotfix/v1.0.1 to develop
+c8f9498 HEAD@{32}: checkout: moving from master to hotfix/v1.0.1
+c8f9498 HEAD@{33}: checkout: moving from develop to master
+0835954 HEAD@{34}: merge feature/reset-function: Fast-forward
+bd5df08 HEAD@{35}: checkout: moving from feature/reset-function to develop
+0835954 HEAD@{36}: rebase (finish): returning to refs/heads/feature/reset-function
+0835954 HEAD@{37}: rebase (continue): fix: modificar debouncer.h desde feature reset
+2161f84 HEAD@{38}: rebase (pick): feat(api): agregar funcion debouncer_reset
+bd5df08 HEAD@{39}: rebase (start): checkout develop
+2b2605d HEAD@{40}: commit: fix: modificar debouncer.h desde feature reset
+d3b60d3 HEAD@{41}: checkout: moving from develop to feature/reset-function
+bd5df08 HEAD@{42}: commit: fix: modificar debouncer.h desde develop
+0010e9d HEAD@{43}: reset: moving to 0010e9d
+ce562aa HEAD@{44}: checkout: moving from feature/reset-function to develop
+d3b60d3 HEAD@{45}: reset: moving to d3b60d3
+fd906aa HEAD@{46}: rebase (abort): returning to refs/heads/feature/reset-function
+108f956 HEAD@{47}: rebase (pick): Forzar conflicto titulo
+143094b HEAD@{48}: rebase (pick): feat(api): agregar funcion debouncer_reset
+ce562aa HEAD@{49}: rebase (start): checkout develop
+fd906aa HEAD@{50}: commit: fix: modificar la linea conflictiva en feature
+5793fba HEAD@{51}: checkout: moving from develop to feature/reset-function
+ce562aa HEAD@{52}: commit: fix: modificar la linea conflictiva en develop
+9d69cdb HEAD@{53}: checkout: moving from feature/reset-function to develop
+5793fba HEAD@{54}: rebase (finish): returning to refs/heads/feature/reset-function
+5793fba HEAD@{55}: rebase (pick): Forzar conflicto titulo
+677741a HEAD@{56}: rebase (pick): feat(api): agregar funcion debouncer_reset
+9d69cdb HEAD@{57}: rebase (start): checkout develop
+e290787 HEAD@{58}: checkout: moving from develop to feature/reset-function
+9d69cdb HEAD@{59}: commit: fix: modificar debouncer.h desde develop
+0010e9d HEAD@{60}: checkout: moving from feature/reset-function to develop
+e290787 HEAD@{61}: commit: Forzar conflicto titulo
+d3b60d3 HEAD@{62}: commit: feat(api): agregar funcion debouncer_reset
+0010e9d HEAD@{63}: checkout: moving from develop to feature/reset-function
+0010e9d HEAD@{64}: checkout: moving from develop to develop
+0010e9d HEAD@{65}: commit: Cambio del debouncer.h desde develop
+c8f9498 HEAD@{66}: checkout: moving from feature/active-low to develop
+1e1eb23 HEAD@{67}: commit: Cambio del debouncer.c
+dae0891 HEAD@{68}: commit: Cambio del debouncer.h
+c8f9498 HEAD@{69}: checkout: moving from develop to feature/active-low
+c8f9498 HEAD@{70}: checkout: moving from feature/active-low to develop
+c8f9498 HEAD@{71}: checkout: moving from develop to feature/active-low
+c8f9498 HEAD@{72}: checkout: moving from master to develop
+c8f9498 HEAD@{73}: commit (initial): feat(core): estructura inicial del debouncer en C y testbench
